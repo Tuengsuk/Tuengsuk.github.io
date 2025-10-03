@@ -60,13 +60,19 @@ footer {
     .left-side {
         display: flex;
         justify-content: space-between;
-        width: 400px;
+        height: 100%;
+        align-items: center;
 
         a {
+            display: flex;
             border-radius: 5px;
             padding: 5px;
-            font-size: 16px;
-            white-space: nowrap;
+            height: 80%;
+
+            img {
+                height: 100%;
+                flex: 1;
+            }
         }
 
         a:Hover {
