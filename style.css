@@ -93,8 +93,9 @@ main {
         border-radius: 10px;
         margin: auto 5%;
         min-width: 200px;
-        max-width: 20%;
-        max-height: 90%;
+        min-height: 270px;
+        height: 70vh;
+        width: 25vw;
     }
 
     & .introduction {
@@ -157,8 +158,16 @@ main {
     }
 }
 
-@media screen and (max-width: 604px) {
+@media screen and (max-width: 660px) {
+    main {
+        & .introduction {
+            text-align: center;
+        }
 
+        & .myself {
+            display: none;
+        }
+    }
 }
 
 footer {
